@@ -23,7 +23,7 @@ public class ChromeDriverTest {
 
 		driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]")).click();
 		driver.close();
-		driver.quit();
+		//driver.quit();
 	}
 
 }
